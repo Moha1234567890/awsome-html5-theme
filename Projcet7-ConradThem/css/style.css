@@ -1,0 +1,614 @@
+/* start section */
+
+* , *:after, *:before
+{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+body{
+
+	font-family:Tahoma;
+    height:4000px;
+	
+}
+.container{
+	width:1080px;
+	margin:auto;
+	
+
+}
+section.conrad
+{
+     width:100%;
+     height:600px;
+     background:url("../images/slide-1-fs.jpg");
+     color:#FFF;
+     background-attachment:fixed; 
+
+
+}
+header {
+	padding-top:35px;
+}
+
+ .mu {
+	display:none;
+	width:100%;
+	height:90px;
+	background:#000;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9999;
+    padding-left:2%;
+
+}
+
+section.conrad div.logo
+{
+	width:50%;
+	float:left;
+	font-size:2em;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-top:-4px;
+}
+section.conrad nav
+{
+	width:50%;
+	float:left;
+}
+section.conrad nav ul li
+{
+	display:inline-block;
+	padding-left:15px;
+	
+}
+section.conrad nav ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold; 
+}
+section.conrad .clear
+{
+	clear:both;
+}
+section.conrad div.digital
+{
+	margin-top:10%;
+	transition: all 0.5s ease-in-out;
+}
+section.conrad div.digital p span
+{
+	transition: all 0.5s ease-in-out;
+
+}
+section.conrad div.digital p:first-child
+{
+	font-size:3em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+section.conrad div.digital p:last-child:hover span
+{
+	display:inline-block;
+	transform:rotate(360deg);
+	
+}
+
+section.conrad div.digital p  {
+	margin-left:50px;
+}
+
+section.conrad div.digital p.class {
+	font-size:22px;
+} 
+/* end section */
+/* section */
+section.about
+{
+	width:100%;
+	height:500px;
+	padding:70px 0 70px 0;
+	font-family:Arial,Tahoma; 
+}
+
+
+section.about div.creative ,
+section.about div.awesome ,
+section.about div.office 
+{
+	width:30%;
+	float:left;
+	margin-left:3%;
+}
+section.about div.creative 
+{
+	margin-left:0;
+}
+
+section.about div.creative 
+{
+	font-size:1.2em;
+}
+section.about div.creative h2
+{
+	font-size:2em;
+	color:#444;
+	margin-bottom:3%;
+}
+section.about div.creative p
+{
+	margin-bottom:6%;
+	line-height:1.6;
+	color:#444;
+
+}
+
+section.about div.creative  a {
+	text-decoration:none;
+	color:#777;
+}
+
+section.about div.awesome h3 ,
+section.about div.office h3 
+{
+	margin-top:4%;
+	margin-bottom:4%;
+}
+
+section.about div.awesome p ,
+section.about div.office p 
+{
+	line-height:1.5;
+	font-size:17px;
+	color:#999;
+
+}
+section.about div.awesome > div ,
+section.about div.office > div
+{
+	overflow:hidden;
+	transition:all 0.3 ease-in-out;
+
+}
+
+section.about div.awesome img ,
+section.about div.office img
+{
+	width:100%;
+
+}
+
+section.about div.awesome img:hover ,
+section.about div.office img:hover
+{
+	transform:scale(1.1);
+
+}
+/** start folio *******/
+
+section.folio
+{
+    width: 100%;
+    background: url('../images/slide-7-fw.jpg');
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    line-height: 1.7; 
+    font-family:sans-serif;
+}
+
+section.folio div.mac {
+	padding-top:17%;
+}
+
+section.folio div.mac p.two {
+	display:none;
+}
+
+section.folio div.mac p {
+	font-weight:bold;
+	font-size:17px;
+}
+
+section.folio div.mac span {
+	font-style:italic;
+	font-size:15px;
+} 
+
+section button {
+	width:200px;
+	margin-top:20px;
+	padding:15px;
+	background:none;
+	border:2px solid #fff;
+	color:#fff;
+	font-size:18px;
+	cursor:pointer;
+	transition: all .5s ease-in-out;
+	outline:0;
+}
+
+section button:hover {
+	background:#000;
+	color:#FFF;
+
+}
+/**** start solutions ****/
+ section.solution 
+{
+    width: 100%;
+    height: 450px;
+    padding: 100px 0 0 0 ;
+}
+
+section.solution div.tailor
+{
+    width: 50%;
+    float: left;
+}
+
+section.solution div.tailor h2
+{
+    font-size: 2.5em;
+    margin-bottom: 3%;
+}
+
+section.solution div.tailor p:nth-of-type(1)
+{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+section.solution div.tailor p:nth-of-type(2)
+{
+    color: #999;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+section.solution div.tailor p:nth-of-type(3) a
+{
+    color: #555;
+    text-decoration: none;
+}
+
+section.solution div.acordion
+{
+    width: 50%;
+    float: left;
+}
+
+section.solution div.acordion h3
+{
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #fff
+}
+
+section.solution div.acordion p
+{
+    background: #ddd;
+    color: #555;
+    padding: 10px;
+    display: none;
+}
+
+/**** end solutions ****/
+
+/**** start go****/
+
+section.go {
+	width:100%;
+	height:500px;
+	background:#e62739;
+
+}
+
+section.go div.the {
+	width:50%;
+	float:left;
+	height:500px;
+	color:#FFF;
+}
+
+section.go div.the h2 {
+	padding-top:20%;
+}
+
+section.go div.the p {
+	font-size:18px;
+	padding-top:7%;
+}
+section.go div.the p a {
+	text-decoration:none;
+	color:#FFF;
+
+}
+section.go div.downlowd {
+	width:50%;
+	float:right;
+	background:url("../images/hero-half-3.jpg");
+	height:500px;
+	background-size:cover;
+}
+
+section.go div.downlowd div.number {
+	width:50%;
+	color:#FFF;
+	height:200px;
+	margin:25% auto;
+}
+
+section.go div.downlowd div.number div.left {
+	width:50%;
+	float:left;
+}
+
+section.go div.downlowd div.number div.left p, 
+section.go div.downlowd div.number div.right p 
+{
+	margin-top:50px;
+	font-size:30px;
+    
+}
+
+
+section.go div.downlowd div.number div.left span, 
+section.go div.downlowd div.number div.right span 
+{
+	font-size:19px;
+	font-style:italic;
+
+} 
+
+section.go div.downlowd div.number div.right {
+	width:50%;
+	float:right;
+}
+
+/**** end go****/
+
+/**** start recent ***/
+
+section.recent
+{
+    width: 100%;
+    height: 700px;
+    padding: 100px 0 200px 0;
+}
+
+section.recent div.center
+{
+    text-align: center
+}
+
+section.recent div.center h2
+{
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+section.recent div.center nav span
+{
+    color: #888;
+    font-size: 18px;
+    padding-left: 45px;
+    text-decoration: none;
+    margin-bottom: 3%;
+    display: inline-block
+
+}
+
+section.recent div.center nav span:hover {
+	cursor:pointer
+	color:#000;
+	text-decoration:underline; 
+}
+
+section.recent div.All_Images .left
+{
+    width: 50%;
+    float: left;
+}
+
+section.recent div.All_Images .left .bird
+{
+    width: 50%;
+    float: left;
+}
+
+section.recent div.All_Images .left .bird img
+{
+    width: 100%;
+    height: 211px;
+}
+
+section.recent div.All_Images .left .man
+{
+    width: 50%;
+    float: left
+}
+
+section.recent div.All_Images .left .man img
+{
+    width: 100%;
+    height:318px;
+}
+
+section.recent div.All_Images .right
+{
+    width: 50%;
+    float: left
+}
+
+section.recent div.All_Images .right .open
+{
+    width: 100%;
+}
+
+section.recent div.All_Images .right .open img
+{
+    height: 445px;
+    width: 100%;
+}
+
+section.recent div.All_Images .right .close
+{
+    width: 100%;
+    display: flex
+}
+
+section.recent div.All_Images .right .close > div
+{
+    width: 50%;
+}
+
+section.recent div.All_Images .right .close > div:nth-of-type(1) img
+{
+    width: 100%;
+    float: left
+}
+
+section.recent div.All_Images .right .close > div:nth-of-type(2) img
+{
+    width: 100%;
+    float: right;
+    clear: both
+}
+/**** end recent ***/
+
+/**** start Clients ***/
+
+/**** end Clients ***/
+
+section.clients {
+	width:100%;
+	height:300px;
+	clear:both;
+	padding:30px 0 30px ;
+	background:#9068be;
+}
+
+section.clients div.yee {
+	width:20%;
+	float:left;
+}
+
+section.clients div.yee h2 {
+	color:#FFF;
+
+}
+
+section.clients div.yee p {
+	line-height:2.5;
+	font-size:20px;
+	color:#FFF;
+}
+
+section.clients div.yee span {
+	font-size:20px;
+	color:#FFF;
+}
+
+/**** start footer ****/
+
+footer
+{
+    height: 390px;
+    width: 100%;
+    padding-top: 20px;
+    background: #222;
+    color: #fff;
+    position: relative
+}
+
+footer div.conrad
+{
+    width:22%;
+    margin-left: 2%;
+    float: left
+}
+
+footer div.conrad h3
+{
+    margin-bottom: 7%;
+}
+
+footer div.conrad a
+{
+    text-decoration: none;
+    display: block;
+    color: #888;
+    line-height: 2.5
+
+}
+
+footer div.conrad  p
+{
+    margin-bottom: 5%;
+    color: #888
+    font-size:25px;
+}
+
+footer div.conrad  input
+{
+    display: block;
+    background: none;
+    outline: 0;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 2%
+}
+
+footer div.conrad  input[type=email] , footer div.conrad  input[type=text]
+{
+    border: 0;
+    border-bottom: 1px solid #888;   
+}
+footer div.conrad  input[type=submit]
+{
+    border: 1px solid #888
+}
+
+footer .footer
+{
+    width: 100%;
+    height: 70px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    line-height: 70px;
+    
+}
+
+footer .footer div.left
+{
+    float: left;
+}
+
+footer .footer div.right
+{
+    float: right
+}
+
+footer .footer div.right a
+{
+    text-decoration: none;
+    color: #fff
+}
+
